@@ -2,6 +2,7 @@
   "name": "@bruceshih/prettier-config-vue",
   "type": "module",
   "version": "1.0.0",
+  "packageManager": "pnpm@8.15.5",
   "description": "Bruce's prettier config for Vue",
   "author": "Bruce Shih",
   "license": "MIT",
