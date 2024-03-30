@@ -1,0 +1,31 @@
+{
+  "name": "@bruceshih/prettier-config-vue",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Bruce's prettier config for Vue",
+  "author": "Bruce Shih",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BruceShih/prettier-config-vue.git"
+  },
+  "keywords": [
+    "prettier-config"
+  ],
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsup --format esm,cjs --clean --dts",
+    "lint": "eslint ."
+  },
+  "peerDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.11.5",
+    "eslint": "9.0.0-rc.0",
+    "eslint-plugin-format": "^0.1.0",
+    "prettier": "^3.2.5",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  }
+}
