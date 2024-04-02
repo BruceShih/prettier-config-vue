@@ -8,7 +8,7 @@ const config: Config = {
   singleQuote: true,
   tabWidth: 2,
   trailingComma: 'none',
-  useTabs: false
+  useTabs: false,
 }
 
 export default config
