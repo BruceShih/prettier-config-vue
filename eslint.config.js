@@ -1,11 +1,4 @@
 // @ts-check
-import antfu from '@antfu/eslint-config'
+import bruceshih from '@bruceshih/eslint-config-vue'
 
-export default antfu({
-  formatters: true
-}, {
-  rules: {
-    'style/max-len': ['error', { code: 100 }],
-    'style/comma-dangle': ['error', 'never']
-  }
-})
+export default bruceshih()
