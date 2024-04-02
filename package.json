@@ -16,6 +16,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsup --format esm,cjs --clean --dts",
+    "release": "bump && pnpm publish",
     "lint": "eslint ."
   },
   "peerDependencies": {
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.11.5",
+    "@jsdevtools/version-bump-prompt": "^6.1.0",
     "eslint": "9.0.0-rc.0",
     "eslint-plugin-format": "^0.1.0",
     "prettier": "^3.2.5",
